@@ -1,0 +1,16 @@
+<ProxyEndpoint name="country-proxy">
+    <PreFlow name="PreFlow">
+		<Description/>
+		<Request>
+            <Step>
+                <Name>ExtractCountryName</Name>
+            </Step>
+        </Request>
+	</PreFlow>
+	<HTTPProxyConnection>
+		<BasePath>/country</BasePath>
+	</HTTPProxyConnection>
+	<RouteRule name="country-route">
+		<TargetEndpoint>country-target</TargetEndpoint>
+	</RouteRule>
+</ProxyEndpoint>

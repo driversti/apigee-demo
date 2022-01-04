@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="ClientIPHeader">
+    <DisplayName>ClientIPHeader</DisplayName>
+    <Add>
+        <Headers>
+            <Header name="client-ip">{client.ip}</Header>
+        </Headers>
+    </Add>
+    <!-- <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables> -->
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

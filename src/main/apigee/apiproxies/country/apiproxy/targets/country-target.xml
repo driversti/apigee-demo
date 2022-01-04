@@ -1,0 +1,13 @@
+<TargetEndpoint name="country-target">
+	<PreFlow>
+        <Request>
+            <Step>
+                <FaultRules/>
+                <Name>rewriteTargetUrl</Name>
+            </Step>
+        </Request>
+    </PreFlow>
+	<HTTPTargetConnection>
+		<URL>https://restcountries.com/v3.1/name/</URL>
+	</HTTPTargetConnection>
+</TargetEndpoint>

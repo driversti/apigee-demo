@@ -1,0 +1,1 @@
+context.setVariable("target.url", "https://restcountries.com/v3.1/name/" + context.getVariable("country_name"));

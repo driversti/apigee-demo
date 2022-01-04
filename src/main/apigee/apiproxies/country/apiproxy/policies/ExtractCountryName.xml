@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractCountryName">
+    <DisplayName>ExtractCountryName</DisplayName>
+    <URIPath>
+      <Pattern ignoreCase="true">/{country_name}</Pattern>
+    </URIPath>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <!-- <Source clearPayload="false">request</Source> -->
+    <!-- <VariablePrefix>apigee</VariablePrefix> -->
+</ExtractVariables>
