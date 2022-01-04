@@ -1,6 +1,7 @@
 {
   "proxies": [
     "country",
+    "fullname",
     "helloworld"
   ],
   "sharedflows": []

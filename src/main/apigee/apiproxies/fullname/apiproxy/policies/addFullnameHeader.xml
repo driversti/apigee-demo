@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="addFullnameHeader">
+    <Add>
+        <Headers>
+            <Header name="X-Country-Name">{c_name}</Header>
+            <Header name="X-Zxcvbn">testetstetstetstest</Header>
+        </Headers>
+    </Add>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

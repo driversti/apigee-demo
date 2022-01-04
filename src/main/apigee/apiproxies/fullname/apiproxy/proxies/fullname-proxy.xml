@@ -1,0 +1,22 @@
+<ProxyEndpoint name="fullname-proxy">
+	<PreFlow name="PreFlow">
+		<Request>
+			<Step>
+				<Name>extractCountryFullName</Name>
+			</Step>
+		</Request>
+	</PreFlow>
+	<PostFlow>
+		<Response>
+			<Step>
+			   <Name>addFullnameHeader</Name>
+			</Step>
+		</Response>
+	</PostFlow>
+	<HTTPProxyConnection>
+		<BasePath>/fullname</BasePath>
+	</HTTPProxyConnection>
+	<RouteRule name="fullname-route">
+		<TargetEndpoint>fullname-target</TargetEndpoint>
+	</RouteRule>
+</ProxyEndpoint>

@@ -1,0 +1,1 @@
+print(context.getVariable("c_name"));

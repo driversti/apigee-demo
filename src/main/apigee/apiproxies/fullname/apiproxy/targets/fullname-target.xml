@@ -1,0 +1,5 @@
+<TargetEndpoint name="fullname-target">
+	<HTTPTargetConnection>
+		<URL>https://restcountries.com/v3.1/name/?fullText=true</URL>
+	</HTTPTargetConnection>
+</TargetEndpoint>
