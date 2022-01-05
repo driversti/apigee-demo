@@ -2,10 +2,18 @@
     <PreFlow name="PreFlow">
 		<Description/>
 		<Request>
+			<Step>
+			   <Name>LogToSyslog</Name>
+			</Step>
             <Step>
                 <Name>ExtractCountryName</Name>
             </Step>
         </Request>
+		<Response>
+			<Step>
+			   <Name>ResponseLogging</Name>
+			</Step>
+		</Response>
 	</PreFlow>
 	<HTTPProxyConnection>
 		<BasePath>/country</BasePath>
