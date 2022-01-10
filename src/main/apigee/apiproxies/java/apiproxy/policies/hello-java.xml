@@ -1,0 +1,4 @@
+<JavaCallout name="hello-java">         
+    <ClassName>com.apigeesample.HelloJava</ClassName>         
+    <ResourceURL>java://edge-custom-policy-java-hello.jar</ResourceURL> 
+</JavaCallout>

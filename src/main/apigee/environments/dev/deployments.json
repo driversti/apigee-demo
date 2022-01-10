@@ -2,7 +2,8 @@
   "proxies": [
     "country",
     "fullname",
-    "helloworld"
+    "helloworld",
+    "java"
   ],
   "sharedflows": []
 }

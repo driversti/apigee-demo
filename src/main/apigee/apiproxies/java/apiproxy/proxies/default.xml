@@ -1,0 +1,19 @@
+<ProxyEndpoint name="default">
+    <PreFlow name="PreFlow">
+		 <Description>Description</Description>
+		 <Request>
+		 	<Step>
+				<Name>CopyHeader</Name>
+			 </Step>
+		 </Request>
+		 <Response>
+		 	<Step>
+				<Name>hello-java</Name>
+			 </Step>
+		 </Response>
+	</PreFlow>
+	<HTTPProxyConnection>
+		<BasePath>/java</BasePath>
+	</HTTPProxyConnection>
+	<RouteRule name="default-route"/>
+</ProxyEndpoint>
