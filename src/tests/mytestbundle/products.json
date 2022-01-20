@@ -19,7 +19,8 @@
     "name": "myproduct",
     "displayName": "myproduct",
     "proxies": [
-      "helloworld"
+      "helloworld",
+      "helloworld_oauth2"
     ]
   }
 ]

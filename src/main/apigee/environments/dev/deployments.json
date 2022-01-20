@@ -1,8 +1,10 @@
 {
   "proxies": [
+    "NoRoute",
     "country",
     "fullname",
     "helloworld",
+    "helloworld_oauth2",
     "java"
   ],
   "sharedflows": []
